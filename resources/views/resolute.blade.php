@@ -37,16 +37,20 @@
 <div class="three-columns flex">
     <div class="left-sidebar w-left border-r-2 border-grey-light min-h-screen pt-4">
         <ul class="list-reset text-sm border-b-2 border-grey-light">
-            <li class="flex items-center py-2 pl-4 my-1">
+            <div class="group bg-white hover:bg-blue ...">
+                <p class="group-hover:text-white text-black ...">New Project</p>
+                <p class="group-hover:text-white text-grey-darker ...">Create a new project from a variety of starting templates.</p>
+            </div>
+            <li class="group flex items-center py-2 pl-4 my-1">
                 <span class="pr-2 text-blue-resolute-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
-                         class="fill-current">
+                         class="fill-current group-hover:text-black ">
                         <path class="heroicon-ui"
                               d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20zM5.68 7.1A7.96 7.96 0 0 0 4.06 11H5a1 1 0 0 1 0 2h-.94a7.95 7.95 0 0 0 1.32 3.5A9.96 9.96 0 0 1 11 14.05V9a1 1 0 0 1 2 0v5.05a9.96 9.96 0 0 1 5.62 2.45 7.95 7.95 0 0 0 1.32-3.5H19a1 1 0 0 1 0-2h.94a7.96 7.96 0 0 0-1.62-3.9l-.66.66a1 1 0 1 1-1.42-1.42l.67-.66A7.96 7.96 0 0 0 13 4.06V5a1 1 0 0 1-2 0v-.94c-1.46.18-2.8.76-3.9 1.62l.66.66a1 1 0 0 1-1.42 1.42l-.66-.67zM6.71 18a7.97 7.97 0 0 0 10.58 0 7.97 7.97 0 0 0-10.58 0z"/></svg>
                 </span>
-                <a href="#" class="text-grey-darker hover:text-black">Dashboard</a>
+                <a href="#" class="text-grey-darker group-hover:text-black ">Dashboard</a>
             </li>
-            <li class="flex items-center py-2 pl-4 my-1">
+            <li class="flex items-center py-2 pl-4 my-1 group-hover:text-black ">
                 <span class="pr-2 text-blue-resolute-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                          class="fill-current">
@@ -55,7 +59,7 @@
                 </span>
                 <a href="#" class="text-grey-darker hover:text-black">Friendly Form</a>
             </li>
-            <li class="flex items-center py-2 pl-4 my-1">
+            <li class="flex items-center py-2 pl-4 my-1 hover:text-black ">
                 <span class="pr-2 text-blue-resolute-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                          class="fill-current">
@@ -64,7 +68,7 @@
                 </span>
                 <a href="#" class="text-grey-darker hover:text-black">Friendly Submissions</a>
             </li>
-            <li class="flex items-center py-2 pl-4 my-1 bg-white border-l-4 border-solid border-blue-resolute">
+            <li class="flex items-center py-2 pl-4 my-1  hover:text-black bg-white border-l-4 border-solid border-blue-resolute">
                 <span class="pr-2 text-blue-resolute-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                          class="fill-current">
@@ -73,7 +77,7 @@
                 </span>
                 <a href="#" class="text-grey-darker hover:text-black">Properties</a>
             </li>
-            <li class="flex items-center py-2 pl-4 my-1">
+            <li class="flex items-center py-2 pl-4 my-1 hover:text-black ">
                 <span class="pr-2 text-blue-resolute-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                          class="fill-current"><path class="heroicon-ui"
@@ -81,7 +85,7 @@
                 </span>
                 <a href="#" class="text-grey-darker hover:text-black">Contacts</a>
             </li>
-            <li class="flex items-center py-2 pl-4 my-1">
+            <li class="flex items-center py-2 pl-4 my-1 hover:text-black ">
                 <span class="pr-2 text-blue-resolute-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                          class="fill-current"><path class="heroicon-ui"
@@ -89,7 +93,7 @@
                 </span>
                 <a href="#" class="text-grey-darker hover:text-black">AOAs</a>
             </li>
-            <li class="flex items-center py-2 pl-4 my-1">
+            <li class="flex items-center py-2 pl-4 my-1 hover:text-black ">
                 <span class="pr-2 text-blue-resolute-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                          class="fill-current"><path class="heroicon-ui"
@@ -97,7 +101,7 @@
                 </span>
                 <a href="#" class="text-grey-darker hover:text-black">Imports</a>
             </li>
-            <li class="flex items-center py-2 pl-4 my-1">
+            <li class="flex items-center py-2 pl-4 my-1 hover:text-black ">
                 <span class="pr-2 text-blue-resolute-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                          class="fill-current"><path class="heroicon-ui"
@@ -107,7 +111,7 @@
             </li>
         </ul>
         <ul class="list-reset text-sm border-grey-light border-solid pt-3">
-            <li class="flex items-center py-2 pl-4 my-1">
+            <li class="flex items-center py-2 pl-4 my-1 hover:text-black ">
                 <span class="pr-2 text-blue-resolute-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                          class="fill-current"><path class="heroicon-ui"
@@ -115,7 +119,7 @@
                 </span>
                 <a href="#" class="text-grey-darker hover:text-black">Property Flags</a>
             </li>
-            <li class="flex items-center py-2 pl-4 my-1">
+            <li class="flex items-center py-2 pl-4 my-1 hover:text-black ">
                 <span class="pr-2 text-blue-resolute-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                          class="fill-current"><path class="heroicon-ui"
@@ -123,7 +127,7 @@
                 </span>
                 <a href="#" class="text-grey-darker hover:text-black">CAD Websites</a>
             </li>
-            <li class="flex items-center py-2 pl-4 my-1">
+            <li class="flex items-center py-2 pl-4 my-1 hover:text-black ">
                 <span class="pr-2 text-blue-resolute-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                          class="fill-current"><path class="heroicon-ui"
@@ -131,7 +135,7 @@
                 </span>
                 <a href="#" class="text-grey-darker hover:text-black">Scrapers</a>
             </li>
-            <li class="flex items-center py-2 pl-4 my-1">
+            <li class="flex items-center py-2 pl-4 my-1 hover:text-black ">
                 <span class="pr-2 text-blue-resolute-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                          class="fill-current"><path class="heroicon-ui"
@@ -139,7 +143,7 @@
                 </span>
                 <a href="#" class="text-grey-darker hover:text-black">Updates</a>
             </li>
-            <li class="flex items-center py-2 pl-4 my-1">
+            <li class="flex items-center py-2 pl-4 my-1 hover:text-black ">
                 <span class="pr-2 text-blue-resolute-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                          class="fill-current"><path class="heroicon-ui"
@@ -147,7 +151,7 @@
                 </span>
                 <a href="#" class="text-grey-darker hover:text-black">Resolute PTS Website</a>
             </li>
-            <li class="flex items-center py-2 pl-4 my-1">
+            <li class="flex items-center py-2 pl-4 my-1 hover:text-black ">
                 <span class="pr-2 text-blue-resolute-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                          class="fill-current">
