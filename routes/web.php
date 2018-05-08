@@ -14,5 +14,6 @@
 Route::view('/', 'list');
 Route::view('/twitter', 'twitter');
 Route::view('/youtube', 'youtube');
+Route::view('/youtube-v2', 'youtube-v2');
 Route::view('/wp-pusher', 'wp-pusher');
 Route::view('/resolute', 'resolute');
