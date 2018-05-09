@@ -658,6 +658,7 @@ module.exports = {
   padding: {
     'px': '1px',
     '0': '0',
+    '0.5': '0.15rem',
     '1': '0.25rem',
     '2': '0.5rem',
     '3': '0.75rem',
@@ -795,6 +796,7 @@ module.exports = {
     '25': '.25',
     '50': '.5',
     '75': '.75',
+    '85': '.85',
     '100': '1',
   },
 
@@ -919,10 +921,12 @@ module.exports = {
       // padding: '1rem',
     }),
     require('./plugins/css-grid')({
-      grids: [2, 3, 5, 6, 8, 10, 12],
+      grids: [2, 3, 4, 5, 6, 8, 10, 12],
       gaps: {
         0: '0',
+        2: '.5rem',
         4: '1rem',
+        6: '1.5rem',
         8: '2rem',
       },
       variants: ['responsive'],

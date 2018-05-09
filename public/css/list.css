@@ -3903,6 +3903,10 @@ a {
   opacity: .75;
 }
 
+.opacity-85 {
+  opacity: .85;
+}
+
 .opacity-100 {
   opacity: 1;
 }
@@ -3921,6 +3925,10 @@ a {
 
 .hover\:opacity-75:hover {
   opacity: .75;
+}
+
+.hover\:opacity-85:hover {
+  opacity: .85;
 }
 
 .hover\:opacity-100:hover {
@@ -4001,6 +4009,10 @@ a {
 
 .p-px {
   padding: 1px;
+}
+
+.p-0\.5 {
+  padding: .15rem;
 }
 
 .py-0 {
@@ -4091,6 +4103,16 @@ a {
 .px-px {
   padding-left: 1px;
   padding-right: 1px;
+}
+
+.py-0\.5 {
+  padding-top: .15rem;
+  padding-bottom: .15rem;
+}
+
+.px-0\.5 {
+  padding-left: .15rem;
+  padding-right: .15rem;
 }
 
 .pt-0 {
@@ -4235,6 +4257,22 @@ a {
 
 .pl-px {
   padding-left: 1px;
+}
+
+.pt-0\.5 {
+  padding-top: .15rem;
+}
+
+.pr-0\.5 {
+  padding-right: .15rem;
+}
+
+.pb-0\.5 {
+  padding-bottom: .15rem;
+}
+
+.pl-0\.5 {
+  padding-left: .15rem;
 }
 
 .pointer-events-none {
@@ -5765,8 +5803,16 @@ a {
   grid-gap: 0;
 }
 
+.grid-gap-2 {
+  grid-gap: .5rem;
+}
+
 .grid-gap-4 {
   grid-gap: 1rem;
+}
+
+.grid-gap-6 {
+  grid-gap: 1.5rem;
 }
 
 .grid-gap-8 {
@@ -5779,6 +5825,10 @@ a {
 
 .grid-columns-3 {
   grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-columns-4 {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .grid-columns-5 {
@@ -8965,6 +9015,10 @@ a {
     opacity: .75;
   }
 
+  .sm\:opacity-85 {
+    opacity: .85;
+  }
+
   .sm\:opacity-100 {
     opacity: 1;
   }
@@ -8983,6 +9037,10 @@ a {
 
   .sm\:hover\:opacity-75:hover {
     opacity: .75;
+  }
+
+  .sm\:hover\:opacity-85:hover {
+    opacity: .85;
   }
 
   .sm\:hover\:opacity-100:hover {
@@ -9063,6 +9121,10 @@ a {
 
   .sm\:p-px {
     padding: 1px;
+  }
+
+  .sm\:p-0\.5 {
+    padding: .15rem;
   }
 
   .sm\:py-0 {
@@ -9153,6 +9215,16 @@ a {
   .sm\:px-px {
     padding-left: 1px;
     padding-right: 1px;
+  }
+
+  .sm\:py-0\.5 {
+    padding-top: .15rem;
+    padding-bottom: .15rem;
+  }
+
+  .sm\:px-0\.5 {
+    padding-left: .15rem;
+    padding-right: .15rem;
   }
 
   .sm\:pt-0 {
@@ -9297,6 +9369,22 @@ a {
 
   .sm\:pl-px {
     padding-left: 1px;
+  }
+
+  .sm\:pt-0\.5 {
+    padding-top: .15rem;
+  }
+
+  .sm\:pr-0\.5 {
+    padding-right: .15rem;
+  }
+
+  .sm\:pb-0\.5 {
+    padding-bottom: .15rem;
+  }
+
+  .sm\:pl-0\.5 {
+    padding-left: .15rem;
   }
 
   .sm\:pointer-events-none {
@@ -10815,8 +10903,16 @@ a {
     grid-gap: 0;
   }
 
+  .sm\:grid-gap-2 {
+    grid-gap: .5rem;
+  }
+
   .sm\:grid-gap-4 {
     grid-gap: 1rem;
+  }
+
+  .sm\:grid-gap-6 {
+    grid-gap: 1.5rem;
   }
 
   .sm\:grid-gap-8 {
@@ -10829,6 +10925,10 @@ a {
 
   .sm\:grid-columns-3 {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .sm\:grid-columns-4 {
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .sm\:grid-columns-5 {
@@ -13884,6 +13984,10 @@ a {
     opacity: .75;
   }
 
+  .md\:opacity-85 {
+    opacity: .85;
+  }
+
   .md\:opacity-100 {
     opacity: 1;
   }
@@ -13902,6 +14006,10 @@ a {
 
   .md\:hover\:opacity-75:hover {
     opacity: .75;
+  }
+
+  .md\:hover\:opacity-85:hover {
+    opacity: .85;
   }
 
   .md\:hover\:opacity-100:hover {
@@ -13982,6 +14090,10 @@ a {
 
   .md\:p-px {
     padding: 1px;
+  }
+
+  .md\:p-0\.5 {
+    padding: .15rem;
   }
 
   .md\:py-0 {
@@ -14072,6 +14184,16 @@ a {
   .md\:px-px {
     padding-left: 1px;
     padding-right: 1px;
+  }
+
+  .md\:py-0\.5 {
+    padding-top: .15rem;
+    padding-bottom: .15rem;
+  }
+
+  .md\:px-0\.5 {
+    padding-left: .15rem;
+    padding-right: .15rem;
   }
 
   .md\:pt-0 {
@@ -14216,6 +14338,22 @@ a {
 
   .md\:pl-px {
     padding-left: 1px;
+  }
+
+  .md\:pt-0\.5 {
+    padding-top: .15rem;
+  }
+
+  .md\:pr-0\.5 {
+    padding-right: .15rem;
+  }
+
+  .md\:pb-0\.5 {
+    padding-bottom: .15rem;
+  }
+
+  .md\:pl-0\.5 {
+    padding-left: .15rem;
   }
 
   .md\:pointer-events-none {
@@ -15734,8 +15872,16 @@ a {
     grid-gap: 0;
   }
 
+  .md\:grid-gap-2 {
+    grid-gap: .5rem;
+  }
+
   .md\:grid-gap-4 {
     grid-gap: 1rem;
+  }
+
+  .md\:grid-gap-6 {
+    grid-gap: 1.5rem;
   }
 
   .md\:grid-gap-8 {
@@ -15748,6 +15894,10 @@ a {
 
   .md\:grid-columns-3 {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .md\:grid-columns-4 {
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .md\:grid-columns-5 {
@@ -18803,6 +18953,10 @@ a {
     opacity: .75;
   }
 
+  .lg\:opacity-85 {
+    opacity: .85;
+  }
+
   .lg\:opacity-100 {
     opacity: 1;
   }
@@ -18821,6 +18975,10 @@ a {
 
   .lg\:hover\:opacity-75:hover {
     opacity: .75;
+  }
+
+  .lg\:hover\:opacity-85:hover {
+    opacity: .85;
   }
 
   .lg\:hover\:opacity-100:hover {
@@ -18901,6 +19059,10 @@ a {
 
   .lg\:p-px {
     padding: 1px;
+  }
+
+  .lg\:p-0\.5 {
+    padding: .15rem;
   }
 
   .lg\:py-0 {
@@ -18991,6 +19153,16 @@ a {
   .lg\:px-px {
     padding-left: 1px;
     padding-right: 1px;
+  }
+
+  .lg\:py-0\.5 {
+    padding-top: .15rem;
+    padding-bottom: .15rem;
+  }
+
+  .lg\:px-0\.5 {
+    padding-left: .15rem;
+    padding-right: .15rem;
   }
 
   .lg\:pt-0 {
@@ -19135,6 +19307,22 @@ a {
 
   .lg\:pl-px {
     padding-left: 1px;
+  }
+
+  .lg\:pt-0\.5 {
+    padding-top: .15rem;
+  }
+
+  .lg\:pr-0\.5 {
+    padding-right: .15rem;
+  }
+
+  .lg\:pb-0\.5 {
+    padding-bottom: .15rem;
+  }
+
+  .lg\:pl-0\.5 {
+    padding-left: .15rem;
   }
 
   .lg\:pointer-events-none {
@@ -20653,8 +20841,16 @@ a {
     grid-gap: 0;
   }
 
+  .lg\:grid-gap-2 {
+    grid-gap: .5rem;
+  }
+
   .lg\:grid-gap-4 {
     grid-gap: 1rem;
+  }
+
+  .lg\:grid-gap-6 {
+    grid-gap: 1.5rem;
   }
 
   .lg\:grid-gap-8 {
@@ -20667,6 +20863,10 @@ a {
 
   .lg\:grid-columns-3 {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .lg\:grid-columns-4 {
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .lg\:grid-columns-5 {
@@ -23722,6 +23922,10 @@ a {
     opacity: .75;
   }
 
+  .xl\:opacity-85 {
+    opacity: .85;
+  }
+
   .xl\:opacity-100 {
     opacity: 1;
   }
@@ -23740,6 +23944,10 @@ a {
 
   .xl\:hover\:opacity-75:hover {
     opacity: .75;
+  }
+
+  .xl\:hover\:opacity-85:hover {
+    opacity: .85;
   }
 
   .xl\:hover\:opacity-100:hover {
@@ -23820,6 +24028,10 @@ a {
 
   .xl\:p-px {
     padding: 1px;
+  }
+
+  .xl\:p-0\.5 {
+    padding: .15rem;
   }
 
   .xl\:py-0 {
@@ -23910,6 +24122,16 @@ a {
   .xl\:px-px {
     padding-left: 1px;
     padding-right: 1px;
+  }
+
+  .xl\:py-0\.5 {
+    padding-top: .15rem;
+    padding-bottom: .15rem;
+  }
+
+  .xl\:px-0\.5 {
+    padding-left: .15rem;
+    padding-right: .15rem;
   }
 
   .xl\:pt-0 {
@@ -24054,6 +24276,22 @@ a {
 
   .xl\:pl-px {
     padding-left: 1px;
+  }
+
+  .xl\:pt-0\.5 {
+    padding-top: .15rem;
+  }
+
+  .xl\:pr-0\.5 {
+    padding-right: .15rem;
+  }
+
+  .xl\:pb-0\.5 {
+    padding-bottom: .15rem;
+  }
+
+  .xl\:pl-0\.5 {
+    padding-left: .15rem;
   }
 
   .xl\:pointer-events-none {
@@ -25572,8 +25810,16 @@ a {
     grid-gap: 0;
   }
 
+  .xl\:grid-gap-2 {
+    grid-gap: .5rem;
+  }
+
   .xl\:grid-gap-4 {
     grid-gap: 1rem;
+  }
+
+  .xl\:grid-gap-6 {
+    grid-gap: 1.5rem;
   }
 
   .xl\:grid-gap-8 {
@@ -25586,6 +25832,10 @@ a {
 
   .xl\:grid-columns-3 {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .xl\:grid-columns-4 {
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .xl\:grid-columns-5 {
