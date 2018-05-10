@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Tailwind Example - YouTube</title>
-    <link rel="stylesheet" href="/css/youtube.css">
+    <link rel="stylesheet" href="/css/list.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 </head>
 <body class="bg-grey-lighter font-sans antialiased text-grey-darker sans">
@@ -97,7 +97,7 @@
 
 <div class="body border-r-2 border-grey-light min-h-screen flex">
 
-    <div class="sidebar w-1/6 bg-white py-4">
+    <div class="sidebar w-1/6 bg-white py-4 lg:block md:hidden">
         <div class="mb-6">
             <a href="javascript:void(0)"
                class="flex items-center py-3 px-6 mb-2 text-black transition-slow hover:bg-grey">
@@ -221,102 +221,9 @@
         <div class="px-6 text-sm text-grey-darker">© 2018 YouTube, LLC</div>
     </div> <!-- end sidebar -->
 
-    <div class="content container mx-auto w-5/6 py-4">
+    <div class="container mx-auto py-4 px-8">
         <div class="text-grey-darkest text-lg font-semibold mb-4">Recommended</div>
-        <div class="grid grid-columns-1 lg:grid-columns-6 grid-gap-4 mb-6">
-            <div class="video">
-                <a href="#" class="relative mb-1">
-                    <img src="/img/youtube/thumbnail13.jpg" alt="thumb" class="transition-slow hover:opacity-75">
-                    <div class="absolute pin-b pin-r text-xs text-white bg-black opacity-85 p-1 rounded mx-1 my-2 leading-tight">
-                        41:42
-                    </div>
-                </a>
-                <div class="text-sm mb-2"><a href="#" class="text-black">PIGGY PIGGY DUDE ON NIGHTMARE MODE!!</a></div>
-                <div class="text-sm">
-                    <a href="#" class="text-grey-dark hover:text-black">
-                        DashieGames <i class="fa fa-check-circle"></i>
-                    </a>
-                </div>
-                <span class="text-sm text-grey-dark">618K views · 2 days ago</span>
-            </div>
-            <div class="video">
-                <a href="#" class="relative mb-1">
-                    <img src="/img/youtube/thumbnail13.jpg" alt="thumb" class="transition-slow hover:opacity-75">
-                    <div class="absolute pin-b pin-r text-xs text-white bg-black opacity-85 p-1 rounded mx-1 my-2 leading-tight">
-                        41:42
-                    </div>
-                </a>
-                <div class="text-sm mb-2"><a href="#" class="text-black">PIGGY PIGGY DUDE ON NIGHTMARE MODE!!</a></div>
-                <div class="text-sm">
-                    <a href="#" class="text-grey-dark hover:text-black">
-                        DashieGames <i class="fa fa-check-circle"></i>
-                    </a>
-                </div>
-                <span class="text-sm text-grey-dark">618K views · 2 days ago</span>
-            </div>
-            <div class="video">
-                <a href="#" class="relative mb-1">
-                    <img src="/img/youtube/thumbnail13.jpg" alt="thumb" class="transition-slow hover:opacity-75">
-                    <div class="absolute pin-b pin-r text-xs text-white bg-black opacity-85 p-1 rounded mx-1 my-2 leading-tight">
-                        41:42
-                    </div>
-                </a>
-                <div class="text-sm mb-2"><a href="#" class="text-black">PIGGY PIGGY DUDE ON NIGHTMARE MODE!!</a></div>
-                <div class="text-sm">
-                    <a href="#" class="text-grey-dark hover:text-black">
-                        DashieGames <i class="fa fa-check-circle"></i>
-                    </a>
-                </div>
-                <span class="text-sm text-grey-dark">618K views · 2 days ago</span>
-            </div>
-            <div class="video">
-                <a href="#" class="relative mb-1">
-                    <img src="/img/youtube/thumbnail13.jpg" alt="thumb" class="transition-slow hover:opacity-75">
-                    <div class="absolute pin-b pin-r text-xs text-white bg-black opacity-85 p-1 rounded mx-1 my-2 leading-tight">
-                        41:42
-                    </div>
-                </a>
-                <div class="text-sm mb-2"><a href="#" class="text-black">PIGGY PIGGY DUDE ON NIGHTMARE MODE!!</a></div>
-                <div class="text-sm">
-                    <a href="#" class="text-grey-dark hover:text-black">
-                        DashieGames <i class="fa fa-check-circle"></i>
-                    </a>
-                </div>
-                <span class="text-sm text-grey-dark">618K views · 2 days ago</span>
-            </div>
-            <div class="video">
-                <a href="#" class="relative mb-1">
-                    <img src="/img/youtube/thumbnail13.jpg" alt="thumb" class="transition-slow hover:opacity-75">
-                    <div class="absolute pin-b pin-r text-xs text-white bg-black opacity-85 p-1 rounded mx-1 my-2 leading-tight">
-                        41:42
-                    </div>
-                </a>
-                <div class="text-sm mb-2"><a href="#" class="text-black">PIGGY PIGGY DUDE ON NIGHTMARE MODE!!</a></div>
-                <div class="text-sm">
-                    <a href="#" class="text-grey-dark hover:text-black">
-                        DashieGames <i class="fa fa-check-circle"></i>
-                    </a>
-                </div>
-                <span class="text-sm text-grey-dark">618K views · 2 days ago</span>
-            </div>
-            <div class="video">
-                <a href="#" class="relative mb-1">
-                    <img src="/img/youtube/thumbnail13.jpg" alt="thumb" class="transition-slow hover:opacity-75">
-                    <div class="absolute pin-b pin-r text-xs text-white bg-black opacity-85 p-1 rounded mx-1 my-2 leading-tight">
-                        41:42
-                    </div>
-                </a>
-                <div class="text-sm mb-2"><a href="#" class="text-black">PIGGY PIGGY DUDE ON NIGHTMARE MODE!!</a></div>
-                <div class="text-sm">
-                    <a href="#" class="text-grey-dark hover:text-black">
-                        DashieGames <i class="fa fa-check-circle"></i>
-                    </a>
-                </div>
-                <span class="text-sm text-grey-dark">618K views · 2 days ago</span>
-            </div>
-        </div>
-
-        <div class="grid grid-columns-1 lg:grid-columns-6 grid-gap-4 mb-6">
+        <div class="grid lg:grid-columns-5 grid-gap-2 md:grid-columns-3 md:grid-gap-6 mb-6 overflow-hidden">
             <div class="video">
                 <a href="#" class="relative mb-1">
                     <img src="/img/youtube/thumbnail13.jpg" alt="thumb" class="transition-slow hover:opacity-75">
