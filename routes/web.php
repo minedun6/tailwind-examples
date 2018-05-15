@@ -17,3 +17,4 @@ Route::view('/youtube', 'youtube');
 Route::view('/youtube-v2', 'youtube-v2');
 Route::view('/wp-pusher', 'wp-pusher');
 Route::view('/resolute', 'resolute');
+Route::view('/symmetryk', 'symmetryk');
