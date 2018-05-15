@@ -919,8 +919,8 @@ module.exports = {
 
   plugins: [
     require('tailwindcss/plugins/container')({
-      // center: true,
-      // padding: '1rem',
+      center: true,
+      padding: '1rem',
     }),
     require('./plugins/css-grid')({
       grids: [2, 3, 4, 5, 6, 8, 10, 12],
