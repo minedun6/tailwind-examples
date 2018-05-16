@@ -9,6 +9,48 @@
         .sym-w-left {
             width: 265px;
         }
+        @keyframes bounceInLeft {
+            from,
+            60%,
+            75%,
+            90%,
+            to {
+                -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+                animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+            }
+
+            0% {
+                opacity: 0;
+                -webkit-transform: translate3d(-3000px, 0, 0);
+                transform: translate3d(-3000px, 0, 0);
+            }
+
+            60% {
+                opacity: 1;
+                -webkit-transform: translate3d(25px, 0, 0);
+                transform: translate3d(25px, 0, 0);
+            }
+
+            75% {
+                -webkit-transform: translate3d(-10px, 0, 0);
+                transform: translate3d(-10px, 0, 0);
+            }
+
+            90% {
+                -webkit-transform: translate3d(5px, 0, 0);
+                transform: translate3d(5px, 0, 0);
+            }
+
+            to {
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+        }
+
+        .menu-item:hover i {
+            animation-name: bounceInLeft;
+            animation-duration: 0.5s;
+        }
     </style>
 </head>
 <body class="bg-grey-lighter font-sans antialiased text-grey-darker">
@@ -94,29 +136,37 @@
 <div class="flex flex-col">
     <div class="sym-w-left">
         <div class="bg-white min-h-screen pt-40 list-reset shadow">
-            <a href="#" class="group flex items-center p-6 text-black transition-fast hover:bg-blue border-solid border-t border-b border-grey-lighter">
-                <i class="fa fa-home text-2xl mr-4 text-blue group-hover:text-white"></i>
-                <span class="font-medium text-lg text-grey-darker group-hover:text-white">Home</span>
+            <a href="#" class="group flex items-center p-6 text-black transition-fast hover:bg-blue menu-item">
+                <i class="far fa-address-book text-2xl mr-4 text-blue group-hover:text-white"></i>
+                <span class="font-medium text-lg text-grey-darker group-hover:text-white">Contacts</span>
             </a>
-            <a href="#" class="group flex items-center p-6 text-black transition-fast hover:bg-blue border-solid border-b border-grey-lighter">
-                <i class="fa fa-home text-2xl mr-4 text-blue group-hover:text-white"></i>
-                <span class="font-medium text-lg text-grey-darker group-hover:text-white">Home</span>
+            <a href="#" class="group flex items-center p-6 text-black transition-fast hover:bg-blue  menu-item">
+                <i class="far fa-chart-bar text-2xl mr-4 text-blue group-hover:text-white"></i>
+                <span class="font-medium text-lg text-grey-darker group-hover:text-white">Reports</span>
             </a>
-            <a href="#" class="group flex items-center p-6 text-black transition-fast hover:bg-blue border-solid border-b border-grey-lighter">
-                <i class="fa fa-home text-2xl mr-4 text-blue group-hover:text-white"></i>
-                <span class="font-medium text-lg text-grey-darker group-hover:text-white">Home</span>
+            <a href="#" class="group flex items-center p-6 text-black transition-fast hover:bg-blue  menu-item">
+                <i class="far fa-hdd text-2xl mr-4 text-blue group-hover:text-white"></i>
+                <span class="font-medium text-lg text-grey-darker group-hover:text-white">Assets Manager</span>
             </a>
-            <a href="#" class="group flex items-center p-6 text-black transition-fast hover:bg-blue border-solid border-b border-grey-lighter">
-                <i class="fa fa-home text-2xl mr-4 text-blue group-hover:text-white"></i>
-                <span class="font-medium text-lg text-grey-darker group-hover:text-white">Home</span>
+            <a href="#" class="group flex items-center p-6 text-black transition-fast hover:bg-blue  menu-item">
+                <i class="far fa-life-ring text-2xl mr-4 text-blue group-hover:text-white"></i>
+                <span class="font-medium text-lg text-grey-darker group-hover:text-white">Knowledge Base</span>
             </a>
-            <a href="#" class="group flex items-center p-6 text-black transition-fast hover:bg-blue border-solid border-b border-grey-lighter">
-                <i class="fa fa-home text-2xl mr-4 text-blue group-hover:text-white"></i>
-                <span class="font-medium text-lg text-grey-darker group-hover:text-white">Home</span>
+            <a href="#" class="group flex items-center p-6 text-black transition-fast hover:bg-blue  menu-item">
+                <i class="far fa-gem text-2xl mr-4 text-blue group-hover:text-white"></i>
+                <span class="font-medium text-lg text-grey-darker group-hover:text-white">Gemstone</span>
             </a>
-            <a href="#" class="group flex items-center p-6 text-black transition-fast hover:bg-blue border-solid border-b border-grey-lighter">
-                <i class="fa fa-home text-2xl mr-4 text-blue group-hover:text-white"></i>
-                <span class="font-medium text-lg text-grey-darker group-hover:text-white">Home</span>
+            <a href="#" class="group flex items-center p-6 text-black transition-fast hover:bg-blue  menu-item">
+                <i class="far fa-user text-2xl mr-4 text-blue group-hover:text-white"></i>
+                <span class="font-medium text-lg text-grey-darker group-hover:text-white">Manage Users</span>
+            </a>
+            <a href="#" class="group flex items-center p-6 text-black transition-fast hover:bg-blue  menu-item">
+                <i class="far fa-calendar-alt text-2xl mr-4 text-blue group-hover:text-white"></i>
+                <span class="font-medium text-lg text-grey-darker group-hover:text-white">Events</span>
+            </a>
+            <a href="#" class="group flex items-center p-6 text-black transition-fast hover:bg-blue  menu-item">
+                <i class="far fa-bookmark text-2xl mr-4 text-blue group-hover:text-white"></i>
+                <span class="font-medium text-lg text-grey-darker group-hover:text-white">Favorites</span>
             </a>
         </div>
     </div>

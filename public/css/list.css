@@ -5855,6 +5855,16 @@ a {
   z-index: auto;
 }
 
+.rotate-10 {
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+.rotate-15 {
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
 .grid {
   display: grid;
 }
