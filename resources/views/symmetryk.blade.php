@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Resolute</title>
+    <title>Symmetryk</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
     <link rel="stylesheet" href="/css/list.css">
     <style>
@@ -118,17 +118,17 @@
     <div class="col-span-9"></div>
     <div class="col-span-2 flex items-stretch justify-between">
         <div class="grid grid-columns-12 w-full">
-            <a href="#" class="col-span-3 flex items-center justify-center border border-red w-full">
-                <i class="far fa-2x fa-compass text-blue"></i>
+            <a href="#" class="group transition-fast col-span-3 flex items-center justify-center w-full hover:bg-blue">
+                <i class="far text-2xl fa-compass text-blue group-hover:text-white"></i>
             </a>
-            <a href="#" class="col-span-3 flex items-center justify-center border border-red w-full">
-                <i class="far fa-2x fa-newspaper text-blue"></i>
+            <a href="#" class="group transition-fast col-span-3 flex items-center justify-center w-full hover:bg-blue">
+                <i class="far text-2xl fa-newspaper text-blue group-hover:text-white"></i>
             </a>
-            <a href="#" class="col-span-3 flex items-center justify-center border border-red w-full">
-                <i class="far fa-2x fa-calendar text-blue"></i>
+            <a href="#" class="group transition-fast col-span-3 flex items-center justify-center w-full hover:bg-blue">
+                <i class="far text-2xl fa-calendar text-blue group-hover:text-white"></i>
             </a>
-            <a href="#" class="col-span-3 flex items-center justify-center bg-blue w-full">
-                <i class="far fa-2x fa-user text-white"></i>
+            <a href="#" class="group transition-fast col-span-3 flex items-center justify-center w-full hover:bg-blue">
+                <i class="far text-2xl fa-user text-blue group-hover:text-white"></i>
             </a>
         </div>
     </div>
