@@ -135,7 +135,7 @@
 </div><!-- end logo container -->
 <div class="flex flex-col">
     <div class="sym-w-left">
-        <div class="bg-white min-h-screen pt-40 list-reset shadow">
+        <div class="bg-white min-h-screen pt-8 list-reset shadow">
             <a href="#" class="group flex items-center p-6 text-black transition-fast hover:bg-blue menu-item">
                 <i class="far fa-address-book text-2xl mr-4 text-blue group-hover:text-white"></i>
                 <span class="font-medium text-lg text-grey-darker group-hover:text-white">Contacts</span>
